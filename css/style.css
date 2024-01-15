@@ -1,0 +1,336 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+/* Default Css End */
+/* Default Theme Style Start */
+.container {
+  width: 83%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.btn-primary {
+  border-radius: 41px;
+  background: #e02c6d;
+  padding: 10px 20px;
+  border: 1px solid #e02c6d;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  margin-top: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-primary:hover {
+  color: #e02c6d;
+  background-color: white;
+  border: 1px solid #e02c6d;
+  font-weight: 700;
+}
+/* Default Theme Style End */
+
+/* Header Area Start */
+header {
+  margin-bottom: 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  padding: 20px 0;
+}
+nav .logo h2 {
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+nav .menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .menu ul li {
+  padding: 30px;
+}
+nav .menu ul li a {
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+nav .menu ul li a:hover {
+  color: #e02c6d;
+}
+/* Logo and Menubar end */
+/* banner area start */
+.banner-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.banner-content h1 {
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 134.615% */
+}
+.banner-content p {
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 10;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-img {
+  width: 50%;
+}
+.banner-img img {
+  width: 100%;
+}
+/* banner area end */
+/* Header Area header */
+/* cart Section Start */
+.cart-area-img {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  /* border-top: 1px solid
+    linear-gradient(
+      90deg,
+      rgba(192, 204, 218, 0.1) 0%,
+      rgba(192, 204, 218, 0.6) 50.38%,
+      rgba(192, 204, 218, 0.1) 100%
+    );
+  border-bottom: 1px solid red; */
+  padding: 30px 0;
+  /* fill: ; */
+}
+/* cart Section End */
+/* Collection Area Start */
+.collection-area {
+  margin-bottom: 130px;
+}
+.collection-area h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.collection-information {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 35px;
+}
+.collection-card {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+.collection-card img {
+  width: 100%;
+}
+.collection-card h3 {
+  color: #18191f;
+  font-feature-settings: "liga" off;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  -webkit-font-feature-settings: "liga" off;
+  -moz-font-feature-settings: "liga" off;
+  margin: 10px 0;
+}
+.collection-card h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  margin-bottom: 10px;
+}
+.collection-card span i {
+  color: #fb8200;
+  margin-bottom: 10px;
+}
+.collection-card span.rate {
+  color: #5e6366;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.1px;
+}
+.collection-card p {
+  color: #787885;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 143%; /* 20.02px */
+  letter-spacing: 0.252px;
+}
+.btn-2 {
+  float: right;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgba(224, 44, 109, 0.87);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+i.fa-solid.fa-arrow-right {
+  margin-left: 10px;
+}
+.btn-2:hover {
+  color: #fb8200;
+}
+/* Collection Area End */
+/* Featured Area Start */
+.featured-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin: 100px 0;
+}
+.featured-content h2 {
+  color: #0a0826;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 157.895% */
+  margin-bottom: 15px;
+}
+.featured-content p {
+  color: #6c6c6c;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+  margin-bottom: 10px;
+}
+/* Featured Area End */
+/* Footer area start */
+.footer-area {
+  background: #0a0826;
+  padding: 50px 0;
+}
+.footer-content {
+  text-align: center;
+}
+.footer-content h4 {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-content p {
+  color: #d9dbe1;
+  font-feature-settings: "liga" off;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+}
+.footer-social-icon {
+  margin-top: 20px;
+}
+.footer-social-icon a {
+  /* width: 32px;
+  height: 32px; */
+  color: white;
+  margin-right: 15px;
+}
+.footer-social-icon a i {
+  color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid white;
+  padding: 6px;
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+.footer-social-icon a i:hover {
+  color: #e02c6d;
+  background-color: #fff;
+  border: 1px solid #e02c6d;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+/* Footer area End */
