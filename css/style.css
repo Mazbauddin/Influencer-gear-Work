@@ -334,3 +334,36 @@ i.fa-solid.fa-arrow-right {
   -o-transform: rotate(360deg);
 }
 /* Footer area End */
+
+/* Responsive Design Starts */
+/* Small Device Style Start  */
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  nav .menu ul {
+    display: none;
+  }
+  .banner-part {
+    flex-direction: column-reverse;
+  }
+  .banner-img,
+  .banner-content {
+    width: 100%;
+  }
+  .cart-area-img {
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+  .collection-information {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .featured-area {
+    flex-direction: column-reverse;
+  }
+  .featured-img img {
+    width: 100%;
+  }
+}
+/* Small Device Style End */
+/* Responsive Design End */
